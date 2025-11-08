@@ -731,6 +731,12 @@ font-size: 6rem;
 	overflow:hidden;
 }
 
+.main_descricao_content{
+	background:url(../images/descricao.jpeg) right center no-repeat;
+	padding:40px;
+	overflow:hidden;
+}
+
 .main_search_content{
 	background:url(../images/pesquisa2.png) right center no-repeat;
 	padding:40px;
