@@ -44,26 +44,19 @@
 								<a href=""><i class="fa fa-phone"></i>+5511970707070</a>
 							</div>
                         </div>
-
                         <div class="col-md-4 col-sm-12">
                             <div class="head_top_social text-right">
                                 <a href=""><i class="fa fa-facebook"></i></a>
-                                <a href=""><i class="fa fa-google-plus"></i></a>
-                                <a href=""><i class="fa fa-twitter"></i></a>
                                 <a href=""><i class="fa fa-linkedin"></i></a>
-                                <a href=""><i class="fa fa-pinterest-p"></i></a>
                                 <a href=""><i class="fa fa-youtube"></i></a>
                                 <a href=""><i class="fa fa-phone"></i></a>
-                                <a href=""><i class="fa fa-camera"></i></a>
                             </div>	
                         </div>
-
                     </div>			
                 </div>
             </div>
 
             <!-- End navbar-collapse-->
-
             <div class="main_menu_bg">
                 <div class="container"> 
                     <div class="row">
@@ -85,8 +78,8 @@
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="#slider">Home</a></li>
                                         <li><a href="#abouts">Sobre Nós</a></li>
-                                        <li><a href="#features">Receitas</a></li>  
-                                        <li><a href="#" class="booking">Agendamento</a></li>
+                                        <li><a href="#receita">Receitas</a></li>  
+                                        <li><a href="#agendamento" class="booking">Agendamento</a></li>
                                     </ul>
                                 </div><!-- /.navbar-collapse -->
                             </div><!-- /.container-fluid -->
@@ -105,7 +98,7 @@
                                 <div class="main_slider_content wow zoomIn" data-wow-duration="1s">
                                     <h1>Da raiz à cremosidade:</h1>
                                     <p> Hommus 100% vegetal com beterraba</p>
-                                    <button href="" class="btn-lg">Conheça a Receita</button>
+                                    <button class="btn-lg" onclick="location.href='#receita'">Conheça a Receita</button>
                                 </div>
                             </div>	
                         </div>
@@ -170,7 +163,7 @@
             </div>
         </section>
 
-        <section id="abouts" class="abouts">
+        <section id="receita" class="abouts">
             <div class="container">
                 <div class="row">
                     <div class="abouts_content">
@@ -210,8 +203,8 @@
                 </div>
             </div>
         </section>
-        
-       <section id="features" class="features">
+
+        <section id="features" class="features">
             <div class="slider_overlay">
                 <div class="container">
                     <div class="row">
@@ -265,89 +258,71 @@
             </div>
         </section>
         
-        
-
-        <section id="footer_widget" class="footer_widget">
+        <section id="agendamento" class="footer_widget">
             <div class="container">
                 <div class="row">
                     <div class="footer_widget_content text-center">
-                        
+
                         <!-- COLUNA 1: CONTATO -->
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="single_widget wow fadeIn" data-wow-duration="2s">
                                 <h3>Entre em Contato</h3>
-        
+
                                 <div class="single_widget_info">
                                     <p>Rua das Cores Vibrantes, 112<br>
-                                        <span>Bairro Jardim Gourmet</span>
-                                        <span>São Paulo - SP</span>
-                                        <span class="phone_email">Telefone: (11) 99999-0000</span>
+                                        <span>Bairro Jardim Gourmet</span><br>
+                                        <span>São Paulo - SP</span><br>
+                                        <span class="phone_email">Telefone: (11) 99999-0000</span><br>
                                         <span>Email: contato@homusvegan.com.br</span>
                                     </p>
                                 </div>
-        
-                                <div class="footer_socail_icon">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fa fa-youtube"></i></a>
-                                </div>
+
                             </div>
                         </div>
-        
-                        <!-- COLUNA 2: HORÁRIOS -->
-                        <div class="col-md-4">
-                            <div class="single_widget wow fadeIn" data-wow-duration="4s">
-                                <h3>Horários de Atendimento</h3>
-        
-                                <div class="single_widget_info">
-                                    <p>
-                                        <span class="date_day">Segunda a Sexta</span>
-                                        <span>8h00 às 18h00 (Atendimento Online)</span>
-                                        <span>10h00 às 20h00 (Loja Física)</span>
-        
-                                        <span class="date_day">Sábado e Domingo</span>
-                                        <span>9h00 às 14h00 (Atendimento Especial)</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <!-- COLUNA 3: FORMULÁRIO -->
-                        <div class="col-md-4">
+
+                        <!-- COLUNA 2: FORMULÁRIO -->
+                        <div class="col-md-6">
                             <div class="single_widget wow fadeIn" data-wow-duration="5s">
                                 <h3>Envie uma Mensagem</h3>
-        
+
                                 <div class="single_widget_form text-left">
                                     <form action="#" id="formid">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="name" placeholder="Nome completo" required="">
+                                            <input type="text" class="form-control" name="name" placeholder="Nome completo" required>
                                         </div>
-        
+
                                         <div class="form-group">
-                                            <input type="email" class="form-control" name="email" placeholder="E-mail" required="">
+                                            <input type="email" class="form-control" name="email" placeholder="E-mail" required>
                                         </div>
-        
+
                                         <div class="form-group">
                                             <input type="text" class="form-control" placeholder="Assunto">
                                         </div>
-        
+
                                         <div class="form-group">
                                             <textarea class="form-control" name="message" rows="3" placeholder="Mensagem"></textarea>
                                         </div>
-        
+
                                         <input type="submit" value="Enviar mensagem" class="btn btn-primary">
-                                    </form>	
+                                    </form>    
                                 </div>
                             </div>
                         </div>
-        
+
+                    </div>
+                </div>
+
+                <!-- TRECHO PEQUENO DE REFERÊNCIAS -->
+                <div class="row mt-4">
+                    <div class="col-12 text-center" style="font-size: 0.75rem; color: #ccc;">
+                        <p>PONTE, Luis Gustavo Sabóia. Bioacessibilidade e atividade antioxidante de compostos fenólicos da folha de beterraba (Beta vulgaris L.). Dissertação (Mestrado em Ciências da Nutrição e do Esporte e Metabolismo) — Faculdade de Ciências Aplicadas, Universidade Estadual de Campinas (UNICAMP), Limeira, 2021.</p>  <br>
+                        <p>BJARNADOTTIR, Adda. Beetroot 101: Nutrition Facts and Health Benefits. Healthline, 12 maio 2023. Disponível em: <a href="https://www.healthline.com/nutrition/foods/beetroot" target="_blank">Healthline</a>. </p>  <br>
+                        <p>LEAL, Karla (revisão clínica). 12 benefícios da beterraba e como consumir (com receitas). Tua Saúde, atualizado em abril 2025. Disponível em: <a href="https://www.tuasaude.com/beneficios-da-beterraba/" target="_blank">Tua Saúde</a>.</p>  <br>
                     </div>
                 </div>
             </div>
         </section>
+
         
         <!--Footer-->
         <footer id="footer" class="footer">
